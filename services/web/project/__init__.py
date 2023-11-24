@@ -28,6 +28,7 @@ class User(db.Model):
 
 @app.route("/")
 def hello_world():
+    print("Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!")
     return jsonify(hello="world")
 
 
